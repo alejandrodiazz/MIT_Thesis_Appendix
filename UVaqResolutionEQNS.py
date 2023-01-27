@@ -29,7 +29,6 @@ def evaluate(frequency, L, r0, m, h, q, a):
 	lengths = list()
 	ez = 10 					# making assumption of 5 electron volts
 	e = 1 						# can be assumed to be positive 1 for most cases
-	# vz = 2*(ez/m)**(1/2)		# axial ion velocity
 	vz = (2*ez/m)**(1/2)		# axial ion velocity
 
 

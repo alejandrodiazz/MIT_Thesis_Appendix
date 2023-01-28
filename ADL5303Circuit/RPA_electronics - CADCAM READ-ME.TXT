@@ -1,0 +1,54 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'RPA_electronics.pdsprj'.
+CADCAM generated at 08:58:13 a. m. on martes, 6 de julio de 2021.
+
+File List
+---------
+Top Copper              : RPA_electronics - CADCAM Top Copper.GBR
+Bottom Copper           : RPA_electronics - CADCAM Bottom Copper.GBR
+Top Silk Screen         : RPA_electronics - CADCAM Top Silk Screen.GBR
+Drill, Plated, 1-16     : RPA_electronics - CADCAM Drill TOP-BOT Plated.GBR
+Netlist                 : RPA_electronics - CADCAM Netlist.IPC
+
+Photoplotter Setup
+------------------
+Format: X2, ASCII, 4.3, metric, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer, I=Index
+
+D10	CIRCLE  D=0.254mm                                                         DRAW  Conductor
+D11	CIRCLE  D=0.635mm                                                         DRAW  Conductor
+D12	CIRCLE  D=0.762mm                                                         FLASH ViaPad
+D13	DIL     W=2.54mm              H=1.524mm             C=0.3048mm            FLASH ComponentPad
+D14	RECT    W=1.52mm              H=0.65mm                                    FLASH SMDPad,CuDef
+D15	RECT    W=1.524mm             H=1.016mm                                   FLASH SMDPad,CuDef
+D16	RECT    W=1.524mm             H=2.032mm                                   FLASH SMDPad,CuDef
+D17	RECT    W=1.143mm             H=1.80339mm                                 FLASH SMDPad,CuDef
+D18	RECT    W=1.80339mm           H=1.143mm                                   FLASH SMDPad,CuDef
+D19	RECT    W=0.9398mm            H=1.4478mm                                  FLASH SMDPad,CuDef
+D70	CIRCLE  D=1.778mm                                                         FLASH ComponentPad
+D71	CIRCLE  D=1.397mm                                                         FLASH WasherPad
+D20	CIRCLE  D=0.2032mm                                                        DRAW  Profile
+D21	CIRCLE  D=0.2032mm                                                        DRAW  NonMaterial
+D22	CIRCLE  D=0.2032mm                                                        DRAW  Material
+D23	CIRCLE  D=0.2mm                                                           DRAW  Material
+D24	CIRCLE  D=0.508mm                                                         DRAW  Material
+D25	CIRCLE  D=0.1524mm                                                        DRAW  Material
+D26	CIRCLE  D=0.381mm                                                         FLASH ViaDrill
+D27	CIRCLE  D=1mm                                                             FLASH ComponentDrill
+D28	CIRCLE  D=0.762mm                                                         FLASH ComponentDrill
+D29	CIRCLE  D=0.8128mm                                                        FLASH ComponentDrill
+
+Layer Stackup
+-------------
+Top Solder Resist        : 0.01016mm  Resist
+Top Copper               : 0.03556mm  Copper
+Core                     : 1.48336mm  FR4
+Bottom Copper            : 0.03556mm  Copper
+Bottom Solder Resist     : 0.01016mm  Resist
+
+
+[END OF FILE]
